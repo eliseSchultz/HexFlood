@@ -1,5 +1,7 @@
 extends TileMap
 
+export (Vector2) var start_hex =  Vector2(1,1)
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass
